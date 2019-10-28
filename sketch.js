@@ -1,13 +1,13 @@
-var angle = 0;
+var angle = 0;  //In this variable I initialize the line.
 var c = 0;
 
 function setup() {
-  createCanvas(400, 400);
-  angleMode(DEGREES);
-  frameRate(10);
-  colorMode(HSB);
-  c = random(0,360);
-  print(c);
+  createCanvas(400, 400); //This creates a square of 400 x 400.
+  angleMode(DEGREES); //This changes the line degrees.
+  frameRate(10); //This modifies the speeds at which the lines are created.
+  colorMode(HSB); //With this we set the colors. 
+  c = random(0,360); //This sets the range of colors.
+  print(c); //This shows the color code if we want a specific color.
 }
 
 function draw() {
